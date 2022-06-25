@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS EXAM</title>
+</head>
+<body>
+    <div class="body-info">
+        <div class="container pt-4 pb-5">
+            <div class="row">
+                    <div class="col-md-6">
+                        <input placeholder="search by name" class="form-control m-3 input-search " id="allMovies" type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <input placeholder="search by name" class="form-control m-3 input-search " id="allMovies" type="text">
+                    </div>
+            </div>
+        </div>
+            <section class="header">
+                <div class="nav ">
+                    <div class="nav-logo p-2 w-75">
+                        <img class="w-100" src="img/logo (1).png" alt="">
+                    </div>
+                    <div class="nav-open ">
+                        <li class="fa fa-align-justify"></li>
+                    </div>
+                    <div class="nav-close ">
+                        <li class="fa fa-align-justify fa-times"></li>
+                    </div>
+                    <div class="nav-social">
+                        <div class="social pt-1">
+                            <li class="fas fa-globe"></li>
+                        </div>
+                        <div class="share pt-1">
+                            <li class="fas fa-share-alt"></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-side pt-4">
+                    <div class="nav-item" >
+                        <ul class="list-unstyled">
+                            <li class="item1   wow bounceInUp pt-5"><a href="#"></a>Now playing</li>
+                            <li class="item2  wow bounceInUp pt-5"><a href="#"></a>Popular</li>
+                            <li class="item3  wow bounceInUp pt-5"><a href="#"></a>Top Rated</li>
+                            <li class="item4  wow bounceInUp pt-5"><a href="#"></a>Trending</li>
+                            <li class="item5  wow bounceInUp pt-5"><a href="#"></a>Upcoming</li>
+                            <li class="item6  wow bounceInUp pt-5"><a  href="#Contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-item">
+                        <a href="#" class="fab fa-facebook-f icon"></a>
+                        <a href="#" class="fab fa-twitter icon"></a>
+                        <a href="#" class="ffab fa-twitter icon"></a>
+                    <div class="info pt-3">
+                        <span>
+                            Copyright Â© 2019 All Rights Reserved.
+                        </span>
+                    </div>
+                </div> 
+                </div>
+
+            </section>
+
+
+            <div class="container">
+                <div class="row" id="rowData">
+                    
+                </div>
+            </div>
+
+            <div class="contact mt-5 pb-5" id="Contact">
+                <div class="container" >
+                    <h2>ContacUs...</h2>
+                    <div class="row mt-5">
+                        <div class="col-md-6 ">
+                            <input type="name" oninput="validateInputName()" id="Name" class=" form-control m-3  input-name " required  placeholder="Enter Your Name..">
+                        </div>
+                        <div class="col-md-6 ">
+                            <input type="email" oninput="validateInputEmail()" id="Email" class=" form-control m-3 input-email " required  placeholder="Enter Email">
+                        </div>
+                        <div class="col-md-6 ">
+                            <input type="number" oninput="validateInputPhone()" id="Phone" class=" form-control m-3 input-phone " required  placeholder="Enter phone">
+                        </div>
+                        <div class="col-md-6 ">
+                            <input type="number" oninput="validateInputAge()" id="Age" class=" form-control m-3 input-age " required placeholder="Enter Age">
+                        </div>
+                        <div class="col-md-6 ">
+                            <input type="password" oninput="validateInputPass()" id="Pass" class=" form-control m-3 input-pass " required  placeholder="Enter password">
+                        </div>
+                        <div class="col-md-6 ">
+                            <input type="password" oninput="validateInputRePass()" id="RePass" class=" form-control m-3 input-repass " required placeholder="Enter Repassword">
+                        </div>
+                    </div>
+                    <button class="p-2  btn" type="submit">submit</button>
+                </div>
+            
+            </div>
+    </div>        
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* html
+{
+    scroll-behavior: smooth;
+} */
+.body-info
+{
+    background-color: #000;
+}
+.post
+{
+    position: relative;
+    overflow: hidden;
+}
+.post img
+{
+    border-radius: 10px;
+}
+.layer
+{
+    padding-top:100px;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    position: absolute;
+    background-color: rgba(146, 148, 148, 0.5);
+    color: #000;
+    transition: all 1s;
+}
+.post:hover .layer
+{
+    top: 0;
+}
+
+.nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 100%;
+    z-index: 999999;
+    background-color: #f8f6f6;
+    color: #000;
+    text-align: center;
+    transition: all ease;
+    
+}
+
+.nav-open
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+.nav-close
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+.nav-logo
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.nav-social
+{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+.nav-item li
+{
+    transition: all 0.5;
+    color: aliceblue;
+}
+.nav-item li:hover
+{
+    color: rgb(218, 51, 51);
+}
+
+.item6 a
+{
+    border: none;
+    color: aliceblue;
+    transition: all 0-5;
+}
+.item6 a:hover
+{
+    color: rgb(218, 51, 51);
+    border: none;
+}
+.nav-side
+{
+    width:0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    z-index: 999;
+}
+.social-item
+{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+
+}
+.social-item a
+{
+    padding-left: 15px;
+}
+.icon
+{
+    color: aliceblue;
+    border: none;
+    transition: all 0.5;
+}
+.icon:hover
+{
+    color: rgb(218, 51, 162);
+}
+.input-name
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-email
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-age
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-phone
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-pass
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-repass
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+.input-search
+{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(240, 237, 237) solid 2px;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+.btn
+{
+    color: rgb(153, 63, 63);
+    border: rgb(153, 63, 63) 1px solid;
+    background-color:transparent;
+    transition: all 0.4;
+}
+.btn:hover
+{
+    color: aliceblue;
+    background-color: rgb(218, 51, 162);
+}
